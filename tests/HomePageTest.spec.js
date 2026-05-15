@@ -1,7 +1,8 @@
 import {test,expect} from '@playwright/test';
 import {Homepage} from '../PageModels/HomePage';
 
-test("HomePagetest",async ({page}) => {
+test("HomePagetest", async ({ page }) => {
+  const homepage = new Homepage(page, expect);
 
     const homepage = new Homepage(page,expect);
 

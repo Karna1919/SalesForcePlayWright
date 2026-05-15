@@ -10,6 +10,5 @@ exports.Homepage = class Homepage {
   async  homepageTest(){
 
     await this.logoImage.click();
-
-    }
-}
+  }
+};
