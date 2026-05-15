@@ -2,7 +2,7 @@ exports.Homepage = class Homepage {
 
     constructor(page) {
         this.page = page;
-        this.logoImage =this.page.locator("//img[src='https://a.sfdcstatic.com/shared/images/c360-nav/salesforce-no-type-logo.svg']");
+        this.logoImage =this.page.locator("//a[@href='https://www.salesforce.com/in/']");
 
     }
 
