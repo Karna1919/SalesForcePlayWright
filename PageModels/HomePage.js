@@ -8,7 +8,8 @@ exports.Homepage = class Homepage {
   }
 
   async homepageTest() {
-    // await this.expect(await this.logoImage).isVisible();
+    // Assertion
+    await this.expect(await this.logoImage).isVisible();
     await this.logoImage.click();
   }
 };

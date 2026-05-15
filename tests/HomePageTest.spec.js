@@ -6,4 +6,6 @@ test("HomePagetest", async ({ page }) => {
 
   await page.goto("https://www.salesforce.com/products/free-trial/developer/");
   await homepage.homepageTest();
+
+  console.log("Sanjay here ");
 });
